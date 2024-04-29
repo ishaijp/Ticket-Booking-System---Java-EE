@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>bussearch</servlet-name>
+        <servlet-class>com.project.controllers.bussearch</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sit</servlet-name>
+        <servlet-class>com.project.controllers.sit</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>booking</servlet-name>
+        <servlet-class>com.project.controllers.booking</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bussearch</servlet-name>
+        <url-pattern>/bussearch.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sit</servlet-name>
+        <url-pattern>/sit.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>booking</servlet-name>
+        <url-pattern>/booking.do</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

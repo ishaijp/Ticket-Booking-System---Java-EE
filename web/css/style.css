@@ -1,0 +1,106 @@
+body {
+	background: #5d802c;
+	color: #878785;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+#header {
+	background: #ffffff;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+#header div img {
+	float: left;
+	margin-top: 15px;
+}
+#header div ul {
+	float: right;
+	list-style: none;
+	margin: 40px 0 0;
+	overflow: hidden;
+	padding: 0;
+}
+#header div ul li {
+	float: left;
+	padding: 0 5px;
+}
+#header div ul li.current a {
+	background: url(../images/bg-button.gif) no-repeat 0 0;
+}
+#header div ul li a {
+	color: #495531;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+}
+#header div ul li a:hover {
+	color: #82ae3f;
+}
+#content {
+	background: #7cc116 url(../images/bg-content.gif) repeat-x top left;
+	color: #67695e;
+        min-height: 600px;
+}
+#content div {
+	background: url(../images/bg-home1.jpg) no-repeat top center;
+  	min-height: 640px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+#content div div {
+	background: none;
+	float: left;
+	margin: 60px 0 0;
+	min-height: 0;
+	padding-right: 10px;
+	width: 960px;
+}
+
+#content div div h1,p{
+        padding-left: 480px;
+	color: white;
+	font-size: 35px;
+	font-weight: normal;
+	margin: auto;
+}
+#content div div p{
+        padding-left: 480px;
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+	margin: auto;
+}
+#content div div table {
+	color: #382d00;
+	margin: 0 420px 0;
+}
+#content div div table th{
+        font-size: 35px;
+	font-weight: normal;
+        color: white;
+}
+#content div div table td{
+        font-size: 20px;
+	font-weight: normal;
+        color: white;
+}
+ #footer div ul li p a {
+	color: #fdfd00;
+}
